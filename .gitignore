@@ -1,0 +1,19 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Database files & journals
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+edith.db
+
+# Private user data & workspace documents
+workspace/*
+!workspace/.gitkeep
